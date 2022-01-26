@@ -6,7 +6,7 @@ description = '''An example bot to showcase the discord.ext.commands extension
 module.
 There are a number of utility commands being showcased here.'''
 
-TOKEN = 'NjYxMjc0OTMzNzQxMjIzOTYy.XgpCRg.BvcbD8jb54RDkrIHi3N7E1bMjPg'
+TOKEN = '---mytoken---'
 intents = discord.Intents.default()
 intents.members = True
 

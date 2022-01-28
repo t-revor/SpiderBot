@@ -22,8 +22,8 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     if bot.user.id != message.author.id:
-        if 'hello' in message.content:
-            await message.channel.send('Hello!')
+        if 'hello' in message.content.lower():
+            await message.channel.send(f'Hello{random.choice(["!","!!","!!!"])}')
     await bot.process_commands(message)
 
 @bot.command()
